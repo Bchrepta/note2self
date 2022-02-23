@@ -1,8 +1,8 @@
 import React from "react";
 import VideoInput from "./VideoInput";
-import "./styles.css";
+import "../styles.css";
 
-export default function App() {
+export default function VideoUpload() {
   return (
     <div className="App">
       <h1>Video upload</h1>
