@@ -5,18 +5,22 @@ import {
   About,
   Notes,
   VideoUpload,
-  Home
+  Home,
+  NavBar,
+  Footer,
 } from "./components"
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <Router>
+    <NavBar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/vid_upload" element={<VideoUpload />} />
       <Route path="/notes" element={<Notes />} />
     </Routes>
+    <Footer />
   </Router>,
   rootElement
 );
