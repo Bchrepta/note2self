@@ -1,0 +1,1 @@
+export const POST_VIDEO = 'http://localhost:5000/upload'
